@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0EA4822BCC1E000001C700 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0EA4812BCC1E000001C700 /* ListItem.swift */; };
 		CA711BB42BC9303C009114B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BB32BC9303C009114B9 /* AppDelegate.swift */; };
 		CA711BB62BC9303C009114B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BB52BC9303C009114B9 /* SceneDelegate.swift */; };
-		CA711BB82BC9303C009114B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BB72BC9303C009114B9 /* ViewController.swift */; };
 		CA711BBB2BC9303C009114B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA711BB92BC9303C009114B9 /* Main.storyboard */; };
 		CA711BBD2BC9303D009114B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA711BBC2BC9303D009114B9 /* Assets.xcassets */; };
 		CA711BC02BC9303D009114B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA711BBE2BC9303D009114B9 /* LaunchScreen.storyboard */; };
+		CA711BC82BC93876009114B9 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BC72BC93876009114B9 /* ListViewModel.swift */; };
+		CA711BCA2BC93991009114B9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BC92BC93991009114B9 /* ListView.swift */; };
+		CA711BCC2BC93FA1009114B9 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BCB2BC93FA1009114B9 /* ItemModel.swift */; };
+		CA711BCE2BC9464F009114B9 /* CatsFactsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BCD2BC9464F009114B9 /* CatsFactsAPI.swift */; };
+		CA711BD02BC9468D009114B9 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BCF2BC9468D009114B9 /* NetworkHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B0EA4812BCC1E000001C700 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		CA711BB02BC9303C009114B9 /* testLifeMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testLifeMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA711BB32BC9303C009114B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA711BB52BC9303C009114B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA711BB72BC9303C009114B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA711BBA2BC9303C009114B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA711BBC2BC9303D009114B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA711BBF2BC9303D009114B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA711BC12BC9303D009114B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA711BC72BC93876009114B9 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		CA711BC92BC93991009114B9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CA711BCB2BC93FA1009114B9 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		CA711BCD2BC9464F009114B9 /* CatsFactsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsFactsAPI.swift; sourceTree = "<group>"; };
+		CA711BCF2BC9468D009114B9 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,7 @@
 				CA711BB12BC9303C009114B9 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		CA711BB12BC9303C009114B9 /* Products */ = {
 			isa = PBXGroup;
@@ -58,7 +69,12 @@
 			children = (
 				CA711BB32BC9303C009114B9 /* AppDelegate.swift */,
 				CA711BB52BC9303C009114B9 /* SceneDelegate.swift */,
-				CA711BB72BC9303C009114B9 /* ViewController.swift */,
+				CA711BC72BC93876009114B9 /* ListViewModel.swift */,
+				CA711BC92BC93991009114B9 /* ListView.swift */,
+				1B0EA4812BCC1E000001C700 /* ListItem.swift */,
+				CA711BCB2BC93FA1009114B9 /* ItemModel.swift */,
+				CA711BCD2BC9464F009114B9 /* CatsFactsAPI.swift */,
+				CA711BCF2BC9468D009114B9 /* NetworkHelper.swift */,
 				CA711BB92BC9303C009114B9 /* Main.storyboard */,
 				CA711BBC2BC9303D009114B9 /* Assets.xcassets */,
 				CA711BBE2BC9303D009114B9 /* LaunchScreen.storyboard */,
@@ -138,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA711BB82BC9303C009114B9 /* ViewController.swift in Sources */,
+				CA711BD02BC9468D009114B9 /* NetworkHelper.swift in Sources */,
+				CA711BCC2BC93FA1009114B9 /* ItemModel.swift in Sources */,
 				CA711BB42BC9303C009114B9 /* AppDelegate.swift in Sources */,
+				CA711BCA2BC93991009114B9 /* ListView.swift in Sources */,
+				1B0EA4822BCC1E000001C700 /* ListItem.swift in Sources */,
+				CA711BCE2BC9464F009114B9 /* CatsFactsAPI.swift in Sources */,
+				CA711BC82BC93876009114B9 /* ListViewModel.swift in Sources */,
 				CA711BB62BC9303C009114B9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +313,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KX8Q7D59Q6;
+				DEVELOPMENT_TEAM = RYNTA9X2UV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testLifeMart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +321,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +342,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KX8Q7D59Q6;
+				DEVELOPMENT_TEAM = RYNTA9X2UV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testLifeMart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +350,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
