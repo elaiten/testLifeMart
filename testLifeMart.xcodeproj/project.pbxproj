@@ -47,6 +47,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0EA4832BCD79EF0001C700 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CA711BCD2BC9464F009114B9 /* CatsFactsAPI.swift */,
+				CA711BCF2BC9468D009114B9 /* NetworkHelper.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1B0EA4842BCD7A0A0001C700 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA711BC92BC93991009114B9 /* ListView.swift */,
+				1B0EA4812BCC1E000001C700 /* ListItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B0EA4852BCD7A190001C700 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA711BC72BC93876009114B9 /* ListViewModel.swift */,
+				CA711BCB2BC93FA1009114B9 /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CA711BA72BC9303C009114B9 = {
 			isa = PBXGroup;
 			children = (
@@ -69,12 +96,9 @@
 			children = (
 				CA711BB32BC9303C009114B9 /* AppDelegate.swift */,
 				CA711BB52BC9303C009114B9 /* SceneDelegate.swift */,
-				CA711BC72BC93876009114B9 /* ListViewModel.swift */,
-				CA711BC92BC93991009114B9 /* ListView.swift */,
-				1B0EA4812BCC1E000001C700 /* ListItem.swift */,
-				CA711BCB2BC93FA1009114B9 /* ItemModel.swift */,
-				CA711BCD2BC9464F009114B9 /* CatsFactsAPI.swift */,
-				CA711BCF2BC9468D009114B9 /* NetworkHelper.swift */,
+				1B0EA4852BCD7A190001C700 /* Model */,
+				1B0EA4842BCD7A0A0001C700 /* View */,
+				1B0EA4832BCD79EF0001C700 /* Network */,
 				CA711BB92BC9303C009114B9 /* Main.storyboard */,
 				CA711BBC2BC9303D009114B9 /* Assets.xcassets */,
 				CA711BBE2BC9303D009114B9 /* LaunchScreen.storyboard */,
