@@ -26,9 +26,9 @@ class ListViewModel: ObservableObject {
         let catsFacts = CatFactAPI()
         catFacts = []
         for _ in 0..<20 {
-            catsFacts.fetchCatFact { (result) in
+            catsFacts.fetchCatFact { [weak self] (result) in
                 guard let result = result else { return }
-                self.catFacts.append(result)
+                self?.catFacts.append(result)
             }
         }
     }

@@ -7,9 +7,9 @@
 
 import Foundation
 
-class NetworkHelper {
+final class NetworkHelper {
     static let shared = NetworkHelper.init()
-    private var session: URLSession
+    private let session: URLSession
     
     private init() {
         session = URLSession(configuration: .default)

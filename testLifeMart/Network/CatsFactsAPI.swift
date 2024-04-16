@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CatFactAPI {
+final class CatFactAPI {
     
     func fetchCatFact(completion: @escaping (CatFact?)  -> ())  {
         guard let url = URL(string: "https://catfact.ninja/fact") else { return }
